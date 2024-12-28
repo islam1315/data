@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول قابل للتعديل</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>جدول قابل للتعديل</h1>
+        <table id="editableTable">
+            <thead>
+                <tr>
+                    <th>الخانة الأولى</th>
+                    <th>الخانة الثانية</th>
+                    <th>الخانة الثالثة</th>
+                    <th>الخانة الرابعة</th>
+                    <th>الخانة الخامسة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true">محتوى 1</td>
+                    <td contenteditable="true">محتوى 2</td>
+                    <td contenteditable="true">محتوى 3</td>
+                    <td contenteditable="true">محتوى 4</td>
+                    <td contenteditable="true">محتوى 5</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="saveButton">حفظ البيانات</button>
+        <div id="statusMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
