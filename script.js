@@ -1,33 +1,13 @@
 // إعداد Firebase
 const firebaseConfig = {
-    apiKey: "// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAc18qgOasCsj1SRXvwRrDu1qJzPtH3CyY",
-  authDomain: "islam-3be15.firebaseapp.com",
-  databaseURL: "https://islam-3be15-default-rtdb.firebaseio.com",
-  projectId: "islam-3be15",
-  storageBucket: "islam-3be15.firebasestorage.app",
-  messagingSenderId: "193592789314",
-  appId: "1:193592789314:web:73eec55381acfc65b0e0db",
-  measurementId: "G-08QKGN4S11"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    databaseURL: "YOUR_DATABASE_URL",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyAc18qgOasCsj1SRXvwRrDu1qJzPtH3CyY",
+    authDomain: "islam-3be15.firebaseapp.com",
+    databaseURL: "https://islam-3be15-default-rtdb.firebaseio.com",
+    projectId: "islam-3be15",
+    storageBucket: "islam-3be15.appspot.com",
+    messagingSenderId: "193592789314",
+    appId: "1:193592789314:web:73eec55381acfc65b0e0db",
+    measurementId: "G-08QKGN4S11"
 };
 
 // تهيئة التطبيق
